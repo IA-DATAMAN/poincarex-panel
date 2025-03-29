@@ -1,0 +1,40 @@
+:root {
+  /* Light Theme Colors */
+  --color-surface: #ffffff;
+  --color-surface-light: #f5f5f5;
+  --color-text: #1f2937;
+  --color-primary: #b91c1c;
+  --color-secondary: #6b7280;
+  --color-border: #e5e7eb;
+  --color-divider: #e5e7eb;
+
+  /* Sidebar Colors for Light Theme */
+  --color-sidebar: #7f1d1d;
+  --color-sidebar-text: #ffffff;
+
+  /* Light Theme Colors */
+  --color-sidebar-light: #7f1d1d; /* Sidebar en tema claro */
+  --color-sidebar-text-light: #ffffff; /* Texto del sidebar en tema claro */
+
+  /* Informar al navegador que el esquema de color es claro */
+  color-scheme: light;
+}
+
+.dark {
+  /* Dark Theme Colors */
+  --color-surface-dark: #0f172a;
+  --color-text-dark: #f3f4f6;
+  --color-border-dark: #334155;
+  --color-divider-dark: #334155;
+
+  /* Sidebar Colors for Dark Theme */
+  --color-sidebar: #450a0a;
+  --color-sidebar-text: #ffffff;
+
+  /* Dark Theme Colors */
+  --color-sidebar-dark: #450a0a; /* Sidebar en tema oscuro */
+  --color-sidebar-text-dark: #ffffff; /* Texto del sidebar en tema oscuro */
+
+  /* Informar al navegador que el esquema de color es oscuro */
+  color-scheme: dark;
+}
